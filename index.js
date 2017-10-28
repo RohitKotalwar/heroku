@@ -13,9 +13,6 @@ app.get('/', function(request, response) {
   response.render('pages/index');
 });
 
-app.get('/assets/js/jquery.min.js', function(request, response) {
-  response.render('/assets/js/jquery.min.js');
-});
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
 });
