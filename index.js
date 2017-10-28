@@ -14,7 +14,7 @@ app.get('/', function(request, response) {
 });
 
 app.get('/Doc/Software_Fulltime.pdf', function(request, response) {
-  response.render('Doc/Software_Fulltime');
+  response.render('Doc/Software_Fulltime.pdf');
 });
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
