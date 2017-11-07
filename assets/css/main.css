@@ -192,7 +192,7 @@ div.transbox
 /* Intnro Wrap */
 
 #intro {
-	background: #2c3e50;
+	background: #111111;
 	padding-top: 60px;
 	padding-bottom: 60px;
 	color: white;
@@ -222,7 +222,7 @@ div.transbox
 }
 
 #footwrap {
-	background: #2f2f2f;
+	background: #111111;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
