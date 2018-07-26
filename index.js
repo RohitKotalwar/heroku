@@ -12,9 +12,9 @@ app.set('view engine', 'ejs');
 app.get('/', function(request, response) {
   response.render('pages/index');
 });
-app.get('/Doc/Software_Fulltime.pdf',function(request,response){
+app.get('/Doc/New_Resume.docx',function(request,response){
 
- response.render('/Doc/Software_Fulltime.pdf');	
+ response.render('/Doc/New_Resume.docx');	
 });
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
